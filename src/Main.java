@@ -8,5 +8,6 @@ public class Main {
         IntStream.range(2,100).mapToObj( parent -> new Fountain(1,parent) )
                               .forEach( ft -> ft.show() );
 
+
     }
 }
